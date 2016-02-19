@@ -14,6 +14,11 @@
  * write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
  */
 
+#ifdef OBJC_OLD_DISPATCH_PROTOTYPES
+#undef OBJC_OLD_DISPATCH_PROTOTYPES
+#define OBJC_OLD_DISPATCH_PROTOTYPES 1
+#endif
+
 #import "AITableViewAdditions.h"
 #import <objc/objc-class.h>
 

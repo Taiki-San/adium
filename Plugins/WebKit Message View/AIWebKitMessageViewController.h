@@ -17,7 +17,7 @@
 #import <Adium/AIInterfaceControllerProtocol.h>
 #import "AIOSCompatibility.h"
 
-@class AIWebKitMessageViewPlugin, AIWebkitMessageViewStyle, AIContentObject, ESWebView, DOMDocument, DOMRange, AIMetaContact, AIChat, AIContentObject, AIWebKitDelegate;
+@class AIWebKitMessageViewPlugin, AIWebkitMessageViewStyle, AIContentObject, ESWebView, DOMDocument, DOMRange, AIMetaContact, AIChat, AIContentObject, AIWebKitDelegate, WebView, WebScriptObject, WebFrame;
 
 /*!
  *	@class AIWebKitMessageViewController AIWebKitMessageViewController.h
@@ -102,5 +102,9 @@
 
 - (void)preferencesChangedForGroup:(NSString *)group key:(NSString *)key object:(AIListObject *)object
 					preferenceDict:(NSDictionary *)prefDict firstTime:(BOOL)firstTime;
+
+//Somehow, those declarations were missing, preventing any compilation o_o
+- (NSArray *)webView:(WebView *)sender contextMenuItemsForElement:(NSDictionary *)element defaultMenuItems:(NSArray *)defaultMenuItems;
+- (void)webView:(WebView *)sender didClearWindowObject:(WebScriptObject *)windowObject forFrame:(WebFrame *)frame;
 
 @end

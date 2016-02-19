@@ -25,3 +25,8 @@
 #endif
 
 #include <AIUtilities/AIMathCompatibility.h>
+
+#ifdef OBJC_OLD_DISPATCH_PROTOTYPES
+#undef OBJC_OLD_DISPATCH_PROTOTYPES
+#define OBJC_OLD_DISPATCH_PROTOTYPES 1
+#endif

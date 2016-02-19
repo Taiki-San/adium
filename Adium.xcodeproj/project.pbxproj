@@ -121,7 +121,7 @@
 		1163F0EC0F6C7A8300F12F5D /* AIURLShortenerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1163F0EB0F6C7A8300F12F5D /* AIURLShortenerPlugin.m */; };
 		1164A90D0F7AD4AB00110AE4 /* AIContentTopic.h in Headers */ = {isa = PBXBuildFile; fileRef = 1164A90B0F7AD4AB00110AE4 /* AIContentTopic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1164A9270F7AD70700110AE4 /* AIContentTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 1164A90C0F7AD4AB00110AE4 /* AIContentTopic.m */; };
-		116E369A10B72934002EDB0F /* Growl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9A8CB2104DEBC400F210CC /* Growl.framework */; };
+		116E369A10B72934002EDB0F /* Growl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9A8CB2104DEBC400F210CC /* Growl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		116E373310B729E9002EDB0F /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9A8CB2104DEBC400F210CC /* Growl.framework */; };
 		117009A70F7E7D720078D6AB /* AIIRCServicesPasswordPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 117009A10F7E7D3A0078D6AB /* AIIRCServicesPasswordPlugin.m */; };
 		11700A350F7E8BE80078D6AB /* AISpecialPasswordPromptController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11700A340F7E8BE80078D6AB /* AISpecialPasswordPromptController.m */; };
@@ -165,13 +165,13 @@
 		11EE1B4E0CDCFAF40097F246 /* oscar-adium.h in Headers */ = {isa = PBXBuildFile; fileRef = 11EE1B4A0CDCFAF40097F246 /* oscar-adium.h */; };
 		11EE1B4F0CDCFAF40097F246 /* ssl-openssl.c in Sources */ = {isa = PBXBuildFile; fileRef = 11EE1B4B0CDCFAF40097F246 /* ssl-openssl.c */; };
 		11EE1B500CDCFAF40097F246 /* ssl.c in Sources */ = {isa = PBXBuildFile; fileRef = 11EE1B4C0CDCFAF40097F246 /* ssl.c */; };
-		11EE1CCF0CDD01120097F246 /* libglib.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 1172FBC30CDAA8D400B8E233 /* libglib.framework */; };
-		11EE1CD00CDD01120097F246 /* libgmodule.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 1172FBC40CDAA8D400B8E233 /* libgmodule.framework */; };
-		11EE1CD10CDD01120097F246 /* libgobject.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 1172FBC50CDAA8D400B8E233 /* libgobject.framework */; };
-		11EE1CD20CDD01120097F246 /* libgthread.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 1172FBC60CDAA8D400B8E233 /* libgthread.framework */; };
-		11EE1CD30CDD01120097F246 /* libintl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 1172FBC70CDAA8D400B8E233 /* libintl.framework */; };
-		11EE1CD40CDD01120097F246 /* libmeanwhile.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 1172FBC80CDAA8D400B8E233 /* libmeanwhile.framework */; };
-		11EE1CD50CDD01120097F246 /* libpurple.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 1172FBC90CDAA8D400B8E233 /* libpurple.framework */; };
+		11EE1CCF0CDD01120097F246 /* libglib.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 1172FBC30CDAA8D400B8E233 /* libglib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		11EE1CD00CDD01120097F246 /* libgmodule.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 1172FBC40CDAA8D400B8E233 /* libgmodule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		11EE1CD10CDD01120097F246 /* libgobject.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 1172FBC50CDAA8D400B8E233 /* libgobject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		11EE1CD20CDD01120097F246 /* libgthread.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 1172FBC60CDAA8D400B8E233 /* libgthread.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		11EE1CD30CDD01120097F246 /* libintl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 1172FBC70CDAA8D400B8E233 /* libintl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		11EE1CD40CDD01120097F246 /* libmeanwhile.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 1172FBC80CDAA8D400B8E233 /* libmeanwhile.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		11EE1CD50CDD01120097F246 /* libpurple.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 1172FBC90CDAA8D400B8E233 /* libpurple.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		11F145F00B546AC500CA91F6 /* Menu Bar Icons in Copy Built-in Xtras */ = {isa = PBXBuildFile; fileRef = 11F145C70B546A6D00CA91F6 /* Menu Bar Icons */; };
 		11F1460C0B546C1200CA91F6 /* AIMenuBarIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F1460A0B546C1200CA91F6 /* AIMenuBarIcons.m */; };
 		11F738F20F58D12200B3285B /* AITwitterAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F738F10F58D12200B3285B /* AITwitterAccount.m */; };
@@ -184,7 +184,6 @@
 		31034F0C0C8142720003F5AA /* UTF8Snowman.txt in Resources */ = {isa = PBXBuildFile; fileRef = 31034F0B0C8142720003F5AA /* UTF8Snowman.txt */; };
 		3107D5250F63134F0051DDD5 /* TestAttributedStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3107D5240F63134F0051DDD5 /* TestAttributedStringAdditions.m */; };
 		312ED3D30C7E876E00A6BDA9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3448758D06D1EBDF00DA778C /* Cocoa.framework */; };
-		312ED3D50C7E878300A6BDA9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312ED3D40C7E878300A6BDA9 /* SenTestingKit.framework */; };
 		312ED3E20C7E8A0700A6BDA9 /* TestDateFormatterStringRepWithInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 312ED3E10C7E8A0700A6BDA9 /* TestDateFormatterStringRepWithInterval.m */; };
 		313C2F940D4B19B50032334D /* TestDictionaryAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 313C2F930D4B19B50032334D /* TestDictionaryAdditions.m */; };
 		31455C9A0CC353F800D231A0 /* TestDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 31455C990CC353F800D231A0 /* TestDataAdditions.m */; };
@@ -205,7 +204,6 @@
 		3403F4DB0D2EFE6D006B08FB /* AIManuallySetUserIconSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 3403F4CE0D2EFE10006B08FB /* AIManuallySetUserIconSource.h */; };
 		3403F56B0D2F0BDE006B08FB /* AIServersideUserIconSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 3403F5690D2F0BDE006B08FB /* AIServersideUserIconSource.h */; };
 		3403F56C0D2F0BDE006B08FB /* AIServersideUserIconSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3403F56A0D2F0BDE006B08FB /* AIServersideUserIconSource.m */; };
-		34048FC818CEBD9700FD3C70 /* Preferences-Privacy.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A8F637514DD1B21008412C8 /* Preferences-Privacy.xib */; };
 		34064D100F21B34200AA6FE3 /* PurpleFacebookAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34064D0E0F21B34200AA6FE3 /* PurpleFacebookAccountViewController.m */; };
 		34064D110F21B34200AA6FE3 /* PurpleFacebookAccountViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 34064D0F0F21B34200AA6FE3 /* PurpleFacebookAccountViewController.h */; };
 		34082675075B079800703011 /* Dock Icons in Copy Built-in Xtras */ = {isa = PBXBuildFile; fileRef = 3408254D075B078B00703011 /* Dock Icons */; };
@@ -225,7 +223,7 @@
 		3419DE820A81042F00C3FC68 /* ToolbarPrefs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34D8327607CBD5B3006466F2 /* ToolbarPrefs.plist */; };
 		3419E2DF0A81445800C3FC68 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3419E2DE0A81445800C3FC68 /* Localizable.strings */; };
 		3419F7760531512200C68BA3 /* Adium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34BD9DE105314751000AB133 /* Adium.framework */; };
-		3419FE230531586A00C68BA3 /* Adium.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 34BD9DE105314751000AB133 /* Adium.framework */; };
+		3419FE230531586A00C68BA3 /* Adium.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 34BD9DE105314751000AB133 /* Adium.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		341BCF850961354D00CF83F5 /* AIMessageWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 341BCF810961354D00CF83F5 /* AIMessageWindow.m */; };
 		341BCF870961354D00CF83F5 /* AIClickThroughThemeDocumentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 341BCF830961354D00CF83F5 /* AIClickThroughThemeDocumentButton.m */; };
 		341BD55D0965E97F00CF83F5 /* ESOTRPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 341BD5550965E97F00CF83F5 /* ESOTRPreferences.m */; };
@@ -922,7 +920,7 @@
 		34FF12120DA52FB10054A872 /* AIPurpleGTalkJoinChatViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 34FF12100DA52FB10054A872 /* AIPurpleGTalkJoinChatViewController.h */; };
 		34FF12130DA52FB10054A872 /* AIPurpleGTalkJoinChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FF12110DA52FB10054A872 /* AIPurpleGTalkJoinChatViewController.m */; };
 		377EC8940AE9525B00CB7BDF /* PSMTabBarControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377EC8930AE9525B00CB7BDF /* PSMTabBarControl.framework */; };
-		377ED0220AE95D7D00CB7BDF /* PSMTabBarControl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 377EC8930AE9525B00CB7BDF /* PSMTabBarControl.framework */; };
+		377ED0220AE95D7D00CB7BDF /* PSMTabBarControl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 377EC8930AE9525B00CB7BDF /* PSMTabBarControl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4B08399507D2350D0034A001 /* AIDockIconSelectionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B08399307D2350D0034A001 /* AIDockIconSelectionSheet.m */; };
 		4B08399C07D235190034A001 /* DockIconSelectionSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B08399B07D235190034A001 /* DockIconSelectionSheet.xib */; };
 		4B191D8A0611C10800E8A4E7 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4B191D880611C10800E8A4E7 /* License.txt */; };
@@ -1263,7 +1261,7 @@
 		633400E40F9C1501003C77A9 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633400D80F9C1501003C77A9 /* IOKit.framework */; };
 		633400E50F9C1501003C77A9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633400D90F9C1501003C77A9 /* Security.framework */; };
 		633400E70F9C1501003C77A9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633400DB0F9C1501003C77A9 /* Cocoa.framework */; };
-		633404710F9C18EF003C77A9 /* AIUtilities.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 6334FBFC0F9C11DC003C77A9 /* AIUtilities.framework */; };
+		633404710F9C18EF003C77A9 /* AIUtilities.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 6334FBFC0F9C11DC003C77A9 /* AIUtilities.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		633405230F9C2B37003C77A9 /* AIUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6334FBFC0F9C11DC003C77A9 /* AIUtilities.framework */; };
 		633405990F9C2C00003C77A9 /* AIUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6334FBFC0F9C11DC003C77A9 /* AIUtilities.framework */; };
 		633405A90F9C2C7D003C77A9 /* AIUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6334FBFC0F9C11DC003C77A9 /* AIUtilities.framework */; };
@@ -1293,7 +1291,7 @@
 		636D938E0E4EA23F00E5F558 /* AdiumAddressBookAction_AIM.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 636D936B0E4E9FD300E5F558 /* AdiumAddressBookAction_AIM.scpt */; };
 		636D93F40E4EAB7500E5F558 /* AIContactObserverManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 34555C5E0DB6BCE500649CD4 /* AIContactObserverManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		636D94090E4EAB9D00E5F558 /* AIContactObserverManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34555C5F0DB6BCE500649CD4 /* AIContactObserverManager.m */; };
-		637864550F9BE1AB0040DEDA /* AutoHyperlinks.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3496A8EA07CE6CA30055BBAB /* AutoHyperlinks.framework */; };
+		637864550F9BE1AB0040DEDA /* AutoHyperlinks.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3496A8EA07CE6CA30055BBAB /* AutoHyperlinks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		638392F809D4D67A0067B9B7 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638392F609D4D67A0067B9B7 /* Sparkle.framework */; };
 		638BC1FC0FC932E000CE7600 /* AIObjectDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 638BC1FB0FC932E000CE7600 /* AIObjectDebug.m */; };
 		639484590EB13DFE008CB6DE /* AIContactHidingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661561640D84AEEC004B7946 /* AIContactHidingController.m */; };
@@ -1307,14 +1305,14 @@
 		639DF9190F97E639003C9A32 /* libintl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1172FBC70CDAA8D400B8E233 /* libintl.framework */; };
 		639DF91A0F97E639003C9A32 /* libmeanwhile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1172FBC80CDAA8D400B8E233 /* libmeanwhile.framework */; };
 		639DF91B0F97E639003C9A32 /* libpurple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1172FBC90CDAA8D400B8E233 /* libpurple.framework */; };
-		639DF9D80F97E678003C9A32 /* AdiumLibpurple.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3485D68009EB416300232CC4 /* AdiumLibpurple.framework */; };
+		639DF9D80F97E678003C9A32 /* AdiumLibpurple.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3485D68009EB416300232CC4 /* AdiumLibpurple.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		63A3A98E0F9C35D3006C9CB0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63A3A9680F9C35D3006C9CB0 /* Localizable.strings */; };
 		63B0EC9C0F8FBB660062476B /* AIProxyListObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B0EC9A0F8FBB660062476B /* AIProxyListObject.m */; };
 		63B0EC9D0F8FBB660062476B /* AIProxyListObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B0EC9B0F8FBB660062476B /* AIProxyListObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63BB1CB90F9EDD2B00424B80 /* AISharedWriterQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 63BB1CB80F9EDD2B00424B80 /* AISharedWriterQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63BB1CC90F9EDDB600424B80 /* AISharedWriterQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BB1CC80F9EDDB600424B80 /* AISharedWriterQueue.m */; };
 		63C120750910A0DD00C9DB57 /* DefaultXtraReadme.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 63C120740910A0DD00C9DB57 /* DefaultXtraReadme.rtf */; };
-		63D692130FA2230A001E7CE8 /* AdiumSpotlightImporter.mdimporter in Copy Spotlight Importer */ = {isa = PBXBuildFile; fileRef = 633D4FA40F9D3073004F491E /* AdiumSpotlightImporter.mdimporter */; };
+		63D692130FA2230A001E7CE8 /* AdiumSpotlightImporter.mdimporter in Copy Spotlight Importer */ = {isa = PBXBuildFile; fileRef = 633D4FA40F9D3073004F491E /* AdiumSpotlightImporter.mdimporter */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		63DF5B220E52D77F00010E99 /* AIContactList.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DF5B200E52D77F00010E99 /* AIContactList.m */; };
 		63DF5B230E52D77F00010E99 /* AIContactList.h in Headers */ = {isa = PBXBuildFile; fileRef = 63DF5B210E52D77F00010E99 /* AIContactList.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63EA62CA094B832D009C8453 /* AIEmoticonPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EA62C8094B832D009C8453 /* AIEmoticonPreviewController.m */; };
@@ -1326,7 +1324,7 @@
 		6EC1684F06C170A000F9FAD3 /* DCInviteToChatWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC1684A06C170A000F9FAD3 /* DCInviteToChatWindowController.m */; };
 		6EC1685006C170A000F9FAD3 /* InviteToChatWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EC1684B06C170A000F9FAD3 /* InviteToChatWindow.xib */; };
 		761CE33916F9087C000EE361 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 761CE33816F9087C000EE361 /* Cocoa.framework */; };
-		761CE34E16F90950000EE361 /* AIDockTilePlugin.docktileplugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 761CE33616F9087C000EE361 /* AIDockTilePlugin.docktileplugin */; };
+		761CE34E16F90950000EE361 /* AIDockTilePlugin.docktileplugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 761CE33616F9087C000EE361 /* AIDockTilePlugin.docktileplugin */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		761CE35416F90A03000EE361 /* AIDockTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 761CE35316F90A03000EE361 /* AIDockTile.m */; };
 		761D58801636C60100210B12 /* AINewMessageTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 761D587F1636C60100210B12 /* AINewMessageTableView.m */; };
 		761D58831636EDE100210B12 /* AINewMessageTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 761D58821636EDE100210B12 /* AINewMessageTextFieldCell.m */; };
@@ -1345,18 +1343,18 @@
 		765F5D74162F48FB00C57904 /* AIOTRSMPSharedSecretWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 765F5D73162F48FB00C57904 /* AIOTRSMPSharedSecretWindowController.m */; };
 		765F5DC51635934400C57904 /* AIRejoinGroupChatTopBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 765F5DC71635934400C57904 /* AIRejoinGroupChatTopBar.xib */; };
 		7664EAA5162E086A008CF995 /* libffi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7664EAA4162E086A008CF995 /* libffi.framework */; };
-		7664EAA6162E0874008CF995 /* libffi.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 7664EAA4162E086A008CF995 /* libffi.framework */; };
+		7664EAA6162E0874008CF995 /* libffi.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 7664EAA4162E086A008CF995 /* libffi.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		76674647178D8A9000F65048 /* AIOTRTopBarUnverifiedContactController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76674646178D8A9000F65048 /* AIOTRTopBarUnverifiedContactController.m */; };
 		7667464C178D8B2700F65048 /* AIOTRTopBarUnverifiedContactController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7667464B178D8B2700F65048 /* AIOTRTopBarUnverifiedContactController.xib */; };
 		766ABAB61306D1020049FFB7 /* AIUnreadMessagesTooltip.m in Sources */ = {isa = PBXBuildFile; fileRef = 766ABAB51306D1020049FFB7 /* AIUnreadMessagesTooltip.m */; };
 		76731DE215F90538007728C3 /* libgcrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76731DE015F90538007728C3 /* libgcrypt.framework */; };
 		76731DE315F90538007728C3 /* libgpgerror.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76731DE115F90538007728C3 /* libgpgerror.framework */; };
-		76731DE415F9057F007728C3 /* libgcrypt.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 76731DE015F90538007728C3 /* libgcrypt.framework */; };
-		76731DE515F90582007728C3 /* libgpgerror.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 76731DE115F90538007728C3 /* libgpgerror.framework */; };
+		76731DE415F9057F007728C3 /* libgcrypt.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 76731DE015F90538007728C3 /* libgcrypt.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		76731DE515F90582007728C3 /* libgpgerror.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 76731DE115F90538007728C3 /* libgpgerror.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		767870E41634045D00BD0E4D /* AIMessageViewTopBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 767870E31634045C00BD0E4D /* AIMessageViewTopBarController.m */; };
 		76889DEB12D3CA17007AEF00 /* get-info.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 76889DEA12D3CA17007AEF00 /* get-info.tiff */; };
 		76980AC1173E6C8800FBDA15 /* libidn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76980AC0173E6C8800FBDA15 /* libidn.framework */; };
-		76980AC5173E6CA700FBDA15 /* libidn.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 76980AC0173E6C8800FBDA15 /* libidn.framework */; };
+		76980AC5173E6CA700FBDA15 /* libidn.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 76980AC0173E6C8800FBDA15 /* libidn.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		769D634B17393CBE008B97BC /* AMPurpleJabberDiscoveryBrowser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 769D634A17393CBE008B97BC /* AMPurpleJabberDiscoveryBrowser.xib */; };
 		76A79E0B16349477007A0497 /* AIGroupChat.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A79E0916349477007A0497 /* AIGroupChat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76A79E0C16349477007A0497 /* AIGroupChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A79E0A16349477007A0497 /* AIGroupChat.m */; };
@@ -1376,7 +1374,7 @@
 		76FF926714B62AB80043E23B /* AIConsoleController.h in Headers */ = {isa = PBXBuildFile; fileRef = 76FF926514B62AB80043E23B /* AIConsoleController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76FF926814B62AB80043E23B /* AIConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FF926614B62AB80043E23B /* AIConsoleController.m */; };
 		7E6F8A94105611B700C6D80D /* libotr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6F8A93105611B700C6D80D /* libotr.framework */; };
-		7E6F8ACD105613AD00C6D80D /* libotr.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6F8A93105611B700C6D80D /* libotr.framework */; };
+		7E6F8ACD105613AD00C6D80D /* libotr.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6F8A93105611B700C6D80D /* libotr.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		7E824CDD06387FAF00813072 /* LinkEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E824CCE06387FAF00813072 /* LinkEditor.xib */; };
 		7E824CE106387FAF00813072 /* SHAutoValidatingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E824CD206387FAF00813072 /* SHAutoValidatingTextView.m */; };
 		7E824CE306387FAF00813072 /* SHLinkEditorWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E824CD406387FAF00813072 /* SHLinkEditorWindowController.m */; };
@@ -1416,8 +1414,8 @@
 		9718DF46136A2C5200013760 /* AIImageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9718DF44136A2C5200013760 /* AIImageCollectionView.m */; };
 		9719C92C1530EDF700217FBE /* FriBidi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9719C92B1530EDF700217FBE /* FriBidi.framework */; };
 		9719C92E1530EE0C00217FBE /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9719C92D1530EE0C00217FBE /* ShortcutRecorder.framework */; };
-		9719C92F1530EE4800217FBE /* FriBidi.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 9719C92B1530EDF700217FBE /* FriBidi.framework */; };
-		9719C9301530EE4800217FBE /* ShortcutRecorder.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 9719C92D1530EE0C00217FBE /* ShortcutRecorder.framework */; };
+		9719C92F1530EE4800217FBE /* FriBidi.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 9719C92B1530EDF700217FBE /* FriBidi.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9719C9301530EE4800217FBE /* ShortcutRecorder.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 9719C92D1530EE0C00217FBE /* ShortcutRecorder.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		9722ABC813257D7F00CAB486 /* ContactListWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9722ABC713257D7F00CAB486 /* ContactListWindow.xib */; };
 		972AB3A11493CF2300381105 /* emoticons_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 974C7524148570E2000686BA /* emoticons_menu.png */; };
 		972AB3A21493D1BA00381105 /* MessageViewEmoticonsMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 974C752C148578F6000686BA /* MessageViewEmoticonsMenu.xib */; };
@@ -1438,7 +1436,7 @@
 		9E124DF107D34C9100AA91C5 /* GrowlAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E124DEF07D34C9000AA91C5 /* GrowlAlert.xib */; };
 		9E125C6607D3571400AA91C5 /* ESBlockingPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E125C6407D3571400AA91C5 /* ESBlockingPlugin.m */; };
 		9E1E1DFD0A96741500E16DFC /* LMX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E1E1DFC0A96741500E16DFC /* LMX.framework */; };
-		9E1E1E270A96770C00E16DFC /* LMX.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 9E1E1DFC0A96741500E16DFC /* LMX.framework */; };
+		9E1E1E270A96770C00E16DFC /* LMX.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 9E1E1DFC0A96741500E16DFC /* LMX.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		9E20910E06A601AF00E33E27 /* CBStatusMenuItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E791DA40577094400547562 /* CBStatusMenuItemController.m */; };
 		9E20911006A601B200E33E27 /* CBStatusMenuItemPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E791D9505768B7A00547562 /* CBStatusMenuItemPlugin.m */; };
 		9E217B7B06A74CA8002A3F27 /* StatusMenuItemDefaultPrefs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E217B7706A74CA7002A3F27 /* StatusMenuItemDefaultPrefs.plist */; };
@@ -1517,10 +1515,10 @@
 		EE147A6D0896B18800A21377 /* ABSearch.png in Resources */ = {isa = PBXBuildFile; fileRef = EE147A6C0896B18700A21377 /* ABSearch.png */; };
 		EE147A790896B32400A21377 /* ABSearch.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE147A780896B32400A21377 /* ABSearch.xib */; };
 		EE147A800896B33400A21377 /* OWABSearchWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE147A7E0896B33400A21377 /* OWABSearchWindowController.m */; };
-		EE5754ED0B3D7A7A00100989 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 638392F609D4D67A0067B9B7 /* Sparkle.framework */; };
+		EE5754ED0B3D7A7A00100989 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 638392F609D4D67A0067B9B7 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		EEC461B6096D68580028632F /* OWSpellingPerContactPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC461B4096D68580028632F /* OWSpellingPerContactPlugin.m */; };
 		EFB1C3140DDBDA3100B3973D /* AITwitterIMPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB1C3130DDBDA3100B3973D /* AITwitterIMPlugin.m */; };
-		F51BCD3B0A156261000FDC06 /* AutoHyperlinks.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3496A8EA07CE6CA30055BBAB /* AutoHyperlinks.framework */; };
+		F51BCD3B0A156261000FDC06 /* AutoHyperlinks.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3496A8EA07CE6CA30055BBAB /* AutoHyperlinks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		F51BCEEA0A15793E000FDC06 /* AutoHyperlinks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3496A8EA07CE6CA30055BBAB /* AutoHyperlinks.framework */; };
 		F5F8CA4D0A1A9C9400154550 /* GBQuestionHandlerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F8CA4B0A1A9C9400154550 /* GBQuestionHandlerPlugin.m */; };
 /* End PBXBuildFile section */
@@ -2001,7 +1999,6 @@
 		3107D5240F63134F0051DDD5 /* TestAttributedStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestAttributedStringAdditions.m; path = UnitTests/TestAttributedStringAdditions.m; sourceTree = "<group>"; };
 		312ED3CA0C7E875B00A6BDA9 /* Unit tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		312ED3CB0C7E875B00A6BDA9 /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "UnitTests-Info.plist"; path = "Plists/UnitTests-Info.plist"; sourceTree = "<group>"; };
-		312ED3D40C7E878300A6BDA9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		312ED3E00C7E8A0700A6BDA9 /* TestDateFormatterStringRepWithInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestDateFormatterStringRepWithInterval.h; path = UnitTests/TestDateFormatterStringRepWithInterval.h; sourceTree = "<group>"; };
 		312ED3E10C7E8A0700A6BDA9 /* TestDateFormatterStringRepWithInterval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestDateFormatterStringRepWithInterval.m; path = UnitTests/TestDateFormatterStringRepWithInterval.m; sourceTree = "<group>"; };
 		312ED3E30C7E8A4A00A6BDA9 /* UnitTests_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnitTests_Prefix.pch; path = UnitTests/UnitTests_Prefix.pch; sourceTree = "<group>"; };
@@ -4791,7 +4788,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				312ED3D30C7E876E00A6BDA9 /* Cocoa.framework in Frameworks */,
-				312ED3D50C7E878300A6BDA9 /* SenTestingKit.framework in Frameworks */,
 				31A764B90DA572B8000AC729 /* AutoHyperlinks.framework in Frameworks */,
 				634DC6020F9C43BB007B6479 /* AIUtilities.framework in Frameworks */,
 			);
@@ -8342,7 +8338,6 @@
 			children = (
 				34C846E5101E518F00140B4B /* QuickTime.framework */,
 				34C846AE101E515900140B4B /* QTKit.framework */,
-				312ED3D40C7E878300A6BDA9 /* SenTestingKit.framework */,
 				31E0CD800C5EEF5200271DB1 /* CoreAudio.framework */,
 				11AA1EF90BCAE9C3003DDA66 /* Quartz.framework */,
 				815D37460A765E83009338C2 /* CoreServices.framework */,
@@ -9337,7 +9332,7 @@
 			name = "Unit tests";
 			productName = "Unit tests";
 			productReference = 312ED3CA0C7E875B00A6BDA9 /* Unit tests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		3485D67F09EB416300232CC4 /* AdiumLibpurple */ = {
 			isa = PBXNativeTarget;
@@ -9490,7 +9485,8 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				CLASSPREFIX = AI;
-				LastUpgradeCheck = 0460;
+				LastTestingUpgradeCheck = 0730;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "The Adium Team";
 			};
 			buildConfigurationList = DADE8E3A085507450062B664 /* Build configuration list for PBXProject "Adium" */;
@@ -9969,7 +9965,6 @@
 				C613B10F1640C0DE006683FF /* pref-general.tiff in Resources */,
 				C613B1111640C370006683FF /* pref-profile.tiff in Resources */,
 				C613B143164112B3006683FF /* events-dock-name.tiff in Resources */,
-				34048FC818CEBD9700FD3C70 /* Preferences-Privacy.xib in Resources */,
 				C613B1451641210B006683FF /* events-contact.tiff in Resources */,
 				76B8B8ED16AF3A46009126FE /* AIOTRTopBarLoggingWarningController.xib in Resources */,
 				5A0BBC4317400544002A7BE0 /* emoticons_menu@2x.png in Resources */,
@@ -12415,6 +12410,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63C7E2050FAFAA4700B310AC /* Unit tests.xcconfig */;
 			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = com.adiumx.unittests;
 			};
 			name = Debug;
 		};
@@ -12422,6 +12418,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63C7E2050FAFAA4700B310AC /* Unit tests.xcconfig */;
 			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = com.adiumx.unittests;
 			};
 			name = Release;
 		};
@@ -12429,6 +12426,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63C7E2050FAFAA4700B310AC /* Unit tests.xcconfig */;
 			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = com.adiumx.unittests;
 			};
 			name = "Release-Debug";
 		};
@@ -12436,6 +12434,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63C7E2060FAFAA4700B310AC /* AdiumLibpurple.xcconfig */;
 			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = com.adiumX.AdiumPurple;
 			};
 			name = Debug;
 		};
@@ -12443,6 +12442,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63C7E2060FAFAA4700B310AC /* AdiumLibpurple.xcconfig */;
 			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = com.adiumX.AdiumPurple;
 			};
 			name = Release;
 		};
@@ -12450,6 +12450,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63C7E2060FAFAA4700B310AC /* AdiumLibpurple.xcconfig */;
 			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = com.adiumX.AdiumPurple;
 			};
 			name = "Release-Debug";
 		};
@@ -12478,6 +12479,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63C7E2030FAFAA4700B310AC /* AIUtilities.framework.xcconfig */;
 			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = com.adiumX.AIUtilities;
 			};
 			name = Debug;
 		};
@@ -12485,6 +12487,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63C7E2030FAFAA4700B310AC /* AIUtilities.framework.xcconfig */;
 			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = com.adiumX.AIUtilities;
 			};
 			name = Release;
 		};
@@ -12492,6 +12495,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63C7E2030FAFAA4700B310AC /* AIUtilities.framework.xcconfig */;
 			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = com.adiumX.AIUtilities;
 			};
 			name = "Release-Debug";
 		};
@@ -12499,6 +12503,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63C7E2080FAFAA4700B310AC /* Spotlight Importer.xcconfig */;
 			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = com.adiumX.adiumXimporter;
 			};
 			name = Debug;
 		};
@@ -12506,6 +12511,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63C7E2080FAFAA4700B310AC /* Spotlight Importer.xcconfig */;
 			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = com.adiumX.adiumXimporter;
 			};
 			name = Release;
 		};
@@ -12513,6 +12519,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63C7E2080FAFAA4700B310AC /* Spotlight Importer.xcconfig */;
 			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = com.adiumX.adiumXimporter;
 			};
 			name = "Release-Debug";
 		};
@@ -12521,7 +12528,6 @@
 			baseConfigurationReference = 5A4B77FA16FCABEC00DF398C /* Dock Tile Plugin.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -12543,6 +12549,7 @@
 				INSTALL_PATH = Contents/PlugIns;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "im.adium.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = docktileplugin;
@@ -12554,7 +12561,6 @@
 			baseConfigurationReference = 5A4B77FA16FCABEC00DF398C /* Dock Tile Plugin.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -12577,6 +12583,7 @@
 				INFOPLIST_FILE = "Other/Adium Dock Tile Plugin/AIDockTilePlugin-Info.plist";
 				INSTALL_PATH = Contents/PlugIns;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = "im.adium.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = docktileplugin;
@@ -12588,7 +12595,6 @@
 			baseConfigurationReference = 5A4B77FA16FCABEC00DF398C /* Dock Tile Plugin.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -12611,6 +12617,7 @@
 				INFOPLIST_FILE = "Other/Adium Dock Tile Plugin/AIDockTilePlugin-Info.plist";
 				INSTALL_PATH = Contents/PlugIns;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = "im.adium.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = docktileplugin;
@@ -12621,7 +12628,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -12652,6 +12658,7 @@
 				MACH_O_TYPE = mh_execute;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "${EXECUTABLE_NAME}";
 				PRODUCT_NAME = "im.adium.$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = xpc;
@@ -12662,7 +12669,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -12678,6 +12684,7 @@
 				INFOPLIST_FILE = "Plists/AIApplescriptRunner-Info.plist";
 				MACH_O_TYPE = mh_execute;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = "${EXECUTABLE_NAME}";
 				PRODUCT_NAME = "im.adium.$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = xpc;
@@ -12688,7 +12695,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -12704,6 +12710,7 @@
 				INFOPLIST_FILE = "Plists/AIApplescriptRunner-Info.plist";
 				MACH_O_TYPE = mh_execute;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = "${EXECUTABLE_NAME}";
 				PRODUCT_NAME = "im.adium.$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = xpc;
@@ -12741,6 +12748,7 @@
 					"\"$(SRCROOT)/Frameworks\"",
 					"\"$(SRCROOT)/build/Debug\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adiumX.adiumX;
 			};
 			name = Debug;
 		};
@@ -12755,6 +12763,7 @@
 					"\"$(SRCROOT)/build/Debug\"",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = RELEASE_BUILD;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adiumX.adiumX;
 			};
 			name = Release;
 		};
@@ -12772,6 +12781,7 @@
 					RELEASE_BUILD,
 					DEBUG_BUILD,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adiumX.adiumX;
 			};
 			name = "Release-Debug";
 		};
@@ -12779,6 +12789,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63C7E02A0FAF9BA800B310AC /* Debug.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "\"$(CFLAGS)\"";
 			};
 			name = Debug;
 		};
@@ -12786,6 +12804,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63C7E02B0FAF9BA800B310AC /* Release.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				OTHER_CFLAGS = "\"$(CFLAGS)\"";
 			};
 			name = Release;
 		};
@@ -12793,6 +12817,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63C7E02C0FAF9BA800B310AC /* Release-Debug.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "\"$(CFLAGS)\"";
 			};
 			name = "Release-Debug";
 		};
